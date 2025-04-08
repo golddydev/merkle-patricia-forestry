@@ -5,7 +5,7 @@
 ### Added
 
 - Two new functions to the on-chain API:
-  - `not_has(self, key, proof) -> Bool`
+  - [`not_has(self, key, proof) -> Bool`](https://github.com/golddydev/merkle-patricia-forestry/blob/06602855dcd0a7cca2651615c1c8c38777aabcf4/on-chain/lib/aiken/merkle-patricia-forestry.ak#L132)
 
 ### Changed
 
@@ -38,6 +38,7 @@ N/A
 - Initial implementation of _Merkle-Patricia Forestry_, with an on-chain (Aiken) and off-chain (Node.js) backend.
 
   - Provides a simple on-chain API.
+
     - **Constructing**
       - [`empty() -> MerklePatriciaForestry`](https://aiken-lang.github.io/merkle-patricia-forestry/aiken/merkle_patricia_forestry.html#empty)
       - [`from_root(root) -> MerklePatriciaForestry`](https://aiken-lang.github.io/merkle-patricia-forestry/aiken/merkle_patricia_forestry.html#from_root)
