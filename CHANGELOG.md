@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.1.1 - 2025-04-08
+
+### Added
+
+- Two new functions to the on-chain API:
+  - `not_has(self, key, proof) -> Bool`
+
+### Changed
+
+N/A
+
+### Removed
+
+N/A
+
 ## v1.1.0 - 2024-07-23
 
 ### Added
